@@ -1,0 +1,43 @@
+.plan{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.plan p{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+textarea{
+    height: 85px;
+}
+
+.plan button{
+    height: 62px;
+    width: 54px;
+}
+
+.plan1{
+    width: 25%;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.plan2{
+    width: 50%;
+    overflow: auto;
+
+}
+
+.plan3{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
